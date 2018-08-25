@@ -1,0 +1,72 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\My Documents\Visual Studio 2017\Projects\CudaExamples\Performance>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\My Documents\Visual Studio 2017\Projects\CudaExamples\Performance\kernel.cu" 
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include\cuda_runtime.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\cuda_runtime_api.h(1927): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\cuda_runtime_api.h(1927): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(831): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(1769): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(2624): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(3462): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(4411): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(5309): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(6217): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7097): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7901): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h(776): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h(1636): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\device_double_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h(925): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include\cuda_runtime.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(13): warning : dllexport/dllimport conflict with "QueryPerformanceCounter"
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(120): warning : transfer of control bypasses initialization of:
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(129): warning : transfer of control bypasses initialization of:
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(135): warning : transfer of control bypasses initialization of:
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(141): warning : transfer of control bypasses initialization of:
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(148): warning : transfer of control bypasses initialization of:
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(154): warning : transfer of control bypasses initialization of:
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include\cuda_runtime.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\cuda_runtime_api.h(1927): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\cuda_runtime_api.h(1927): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(831): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(1769): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(2624): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(3462): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(4411): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(5309): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(6217): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7097): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7901): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h(776): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h(1636): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\device_double_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h(925): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include\cuda_runtime.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(13): warning : dllexport/dllimport conflict with "QueryPerformanceCounter"
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(120): warning : transfer of control bypasses initialization of:
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(129): warning : transfer of control bypasses initialization of:
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(135): warning : transfer of control bypasses initialization of:
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(141): warning : transfer of control bypasses initialization of:
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(148): warning : transfer of control bypasses initialization of:
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(154): warning : transfer of control bypasses initialization of:
+  kernel.cu
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(13): warning C4273: 'QueryPerformanceCounter': 不一致的 DLL 連結
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\profileapi.h(42): note: 請參閱 'QueryPerformanceCounter' 之前的定義
+D:/My Documents/Visual Studio 2017/Projects/CudaExamples/Performance/kernel.cu(59): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(831): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(1769): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(2624): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(3462): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(4411): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(5309): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(6217): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7097): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7901): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  Performance.vcxproj -> D:\My Documents\Visual Studio 2017\Projects\CudaExamples\x64\Debug\Performance.exe
